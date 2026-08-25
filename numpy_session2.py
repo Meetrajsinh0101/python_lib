@@ -9,13 +9,12 @@ ratings = np.array([
 ])
 print("Full ratings matrix:\n", ratings)
 
-
 user_2_3_ratings = ratings[1:3]
 print("Ratings by user 2 and user 3:\n", user_2_3_ratings)
 
 print()
 
-
+# Task 2: 
 steps = np.array([7500, 8200, 9000, 6800, 8100, 7999, 10500, 8000, 9200, 7300])
 high_step_days = steps[steps > 8000]
 print("Steps array:", steps)
@@ -23,7 +22,7 @@ print("Days with steps > 8000:", high_step_days)
 
 print()
 
-
+# Task 3: 
 ipl_scores = np.array([180, 165, 210, 195, 172, 205, 188, 199])
 selected_matches = ipl_scores[[2, 5, 7]]
 print("IPL scores:", ipl_scores)
@@ -31,6 +30,7 @@ print("Scores from matches 2, 5, 7:", selected_matches)
 
 print()
 
+# Task 4: 
 
 prices = np.array([999, 1499, 2499, 599, 3999])
 discounted_prices = prices * 0.9
@@ -38,6 +38,8 @@ print("Original prices:", prices)
 print("Prices after 10% discount:", discounted_prices)
 
 print()
+
+# Task 5: 
 
 song_ratings = np.array([3, -2, 5, 0, -4, 1, -1, 4])
 song_ratings[song_ratings < 0] = 0
